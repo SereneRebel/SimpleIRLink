@@ -11,6 +11,8 @@ This is very much a "works well enough" for a proof of concept, there may be err
 Master side uses a Raspberry pi CM4 with UART4 enabled in config.txt. Other pi/linux sbc can be used with adapting the uart define.
 Slave side uses an STM32 Nucleo F303 board.
 
+Note: slave side code contains STM32 generated code and as such contains Apache 2.0 licensed code as well as BSD-3-Clause license, Relevant LICENSE.TXT files are included in their respective locations.
+
 ### Connections - Master side
 ![20241213_152533](https://github.com/user-attachments/assets/d4bcde2c-48a2-4396-b394-913dea238c31)
 
